@@ -1,0 +1,22 @@
+"""Person (player) alone in futuristic, protected building on an island with a city that's long destroyed & abandoned—except for all the zombies. 
+
+The robot is telling myths of Dividere to the player while the pair attempts to fix the game Dividere. The stories tell of how the game is thought to tell the lost history of how the world used to be, with 3 warring factions. (Secret: Each faction is an alignment, & one's alignment is usually because of one's birth locale, based on which "god" has ownership of said locale.) The factions eventually figure out the secret, so they band together to kill the warring "gods" for forcing the world into constant war."""
+
+def robot_dialog_0[]:
+  return "Are you excited?"
+
+
+
+"""From there, the world enters the modern age of peace. This goes on for a long time—until the warring "gods" slowly regain slight power over the world. Given the advanced tech, the warring "gods" are able release a zombie outbreak that kills everyone except the player—as far as the player knows.
+
+The player fixes the game, learns to play, & then notices that someone else (Hope The Stranger) is online. The player plays Hope to learn to become a better Dividere player. 
+
+(Good/Light-side path) As Hope starts to lose more & more, she/he (whatever gender the player is attracted to most) becomes slightly annoyed at how good the player is. Unbeknownst to the player, Hope controls the zombies, & sends a hoard to destroy the player's network connection. The player must operate a laser turret, or lose the ability for multiplayer until the network is repaired by the robot. If the robot is seen by the zombies while hope is controlling them, the zombies will attack the robot.
+
+If the player can't get their network connection back up, say, if the robot is destroyed, team good "god" sends Fin & Baes to repair the player's connection & invite the player to the good team.
+
+(Neutral-side path) As Hope starts to lose more & more, she/he (whatever gender the player is attracted to most) becomes slightly curious at how good the player is. Hope sees if they can win you over by paying you with mostly Dark cards/items. If that doesn't work, unbeknownst to the player, Hope controls the zombies, & sends a hoard to destroy the player's network connection. The player must operate a laser turret, or lose the ability for multiplayer until the network is repaired by the robot. If the robot is seen by the zombies while hope is controlling them, the zombies will attack the robot. 
+
+If the player can't get their network connection back up, say, if the robot is destroyed, team neutral "god" sends Gereth The "Noob(nec)romancer" to repair the player's connection—but only for a fee.
+
+(Evil/Dark-side path) As Hope starts to lose more & more, she/he (whatever gender the player is attracted to most) becomes ecstatic. Hope says they love a challenge. Each game, Hope tells another story about Dividere, until eventually sharing that they're in contact with the old "gods," & that the old "gods" are interested in the player's skills""" 
