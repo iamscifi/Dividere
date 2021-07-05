@@ -1,0 +1,23 @@
+"""Prizes & prices change based on how many active users choose good or evil, i.e., if there are 51% good & 49% evil players, good players will pay 1% less for everything within the game, & will earn 1% more in prizes, but only up to a 10% difference.
+
+Neutral players are only affected when they're working for either side.
+
+this option=the player's ID#
+1: When neutral points are higher, assign this option to be a FLOAT
+9: When good points are higher, assign this option to be an INT
+7: When evil points are higher, assign this option to be a STR
+
+Create an algorithm that checks player stats.
+If the stat is a FLOAT, send player to N version of Dividere.
+If the stat is an INT, send player to G version of Dividere.
+If the stat is a STR, send player to E version of Dividere."""
+
+
+def new_player[]:
+  return http://Dividere.me/
+def neutral[]:
+  return http://Dividere.me/7385420/
+def good[]:
+  return http://Dividere.me/5904/
+def evil[]:
+  return http://Dividere.me/3580/
