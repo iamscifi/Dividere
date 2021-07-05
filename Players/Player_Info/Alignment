@@ -1,0 +1,31 @@
+player_id = ()
+
+def new_player[]:
+  return http://Dividere.me/ + player_id
+def neutral[]:
+  return http://Dividere.me/7385420/ + player_id
+def good[]:
+  return http://Dividere.me/5904/ + player_id
+def evil[]:
+  return http://Dividere.me/3580/ + player_id
+  
+neutral_tokens = 
+good_tokens = 
+evil_tokens = 
+
+def alignment_token_check(neutral_tokens, good_tokens, evil_tokens):
+  if neutral_tokens and good_tokens and evil_tokens > 5:
+    if neutral_tokens >= good_tokens and evil_tokens:
+      return neutral
+    elif good_tokens > neutral_tokens and evil_tokens:
+      return good
+    else:
+      return evil
+  else:
+    return new_player
+
+def player_alignment(player_id):
+  return type(player_id)
+  
+  def token_add_good:
+  
