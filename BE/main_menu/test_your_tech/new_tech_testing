@@ -1,0 +1,3 @@
+"""Place where players can test new tech & tactics."""
+
+"Use NTT to practice freely against {} or another player with both official & unapproved tech. That's right, there's no consequences & only experience to gain.".format(bot_name)
