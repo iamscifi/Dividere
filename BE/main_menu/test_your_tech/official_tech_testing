@@ -1,0 +1,3 @@
+"""Place where players can test new tactics."""
+
+"Use OTT to practice freely against {} or another player using only official tech. That's right, there's no consequences & only experience to gain.".format(bot_name)
