@@ -1,0 +1,3 @@
+"""A vote_token allows the holder to vote on any vote_topic the vote_token relates to"""
+def vote_token():
+  
