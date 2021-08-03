@@ -1,0 +1,3 @@
+"""Order of descriptive_objects is how Dividere understands what aspects are more important"""
+def order_of_impact(descriptive_objects[]):
+  
