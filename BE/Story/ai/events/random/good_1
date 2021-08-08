@@ -1,0 +1,6 @@
+import random as r
+
+"""Returns a random good_1 event"""
+
+def good_1['finds item valued at $100', 'gets' + r.choice(attention_2) 'from' + r.choice(hottie),]:
+    return r.choice(good_1)
