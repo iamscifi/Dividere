@@ -2,5 +2,5 @@ import random as r
 
 """Returns a random good_7 event"""
 
-def good_1['finds item valued at $1k', 'gets' + r.choice(attention_8) 'from' + r.choice(hottie),]:
+def good_1['finds item valued at $100k', 'gets' + r.choice(attention_8) 'from' + r.choice(hottie),]:
     return r.choice(good_7)
