@@ -1,0 +1,54 @@
+# Pygame template
+import pygame as pg
+import random
+
+width = 368
+height = 480
+fps = 30
+
+# define colors
+white = (255, 255, 255)
+black = (0, 0, 0)
+red = (255, 0, 0)
+green = (0, 255, 0)
+blue = (0, 0, 255)
+
+class Player(pg.sprite.Sprite):
+    # sprite for the player
+    def __init__(self):
+        pg.sprite.Sprite.__init__(self)
+        self.image = pg.Surface((30, 40))
+        self.image.fill(green)
+        self.rect = self.image.get_rect()
+        self.rect.center = (width / 2, height / 2)
+        
+# initialize pygame & create window
+pg.init()
+pg.mixer.init()
+screen = pg.display.set_mode((width, height))
+pg.display.set_caption('My Game')
+clock = pg.time.Clock()
+
+all_sprited = pg.sprite.Group()
+player = Player()
+# game loop
+running = True
+while running:
+    # keep loop running at the right speed
+    clock.tick(fps)
+    # process input (events)
+    for event in pg.event.get():
+        # check for closing window
+        if event.type == pg.quit:
+            running = False
+
+    # update
+    all_sprited.update()
+
+    # draw/render
+    screen.fill(black)
+    all_sprited.draw(screen)
+    # after drawing everything, flip
+    pg.display.flip()
+
+pg.quit()
